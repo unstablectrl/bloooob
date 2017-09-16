@@ -78,9 +78,12 @@ public class Circle {
     public void hit() {
         if (this.hit) return;
         this.hit = true;
-        setTexture("watercolor_circle.png");
+        setTexture("circle-hit.png");
     }
 
+    public boolean isHit() {
+        return hit;
+    }
 
     public boolean isWall() {
         return isWall;

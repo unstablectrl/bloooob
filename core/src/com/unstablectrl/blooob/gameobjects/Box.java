@@ -83,7 +83,7 @@ public class Box {
     public void hit() {
         if (this.hit) return;
         this.hit = true;
-        setTexture("badlogic.jpg");
+//        setTexture("badlogic.jpg");
     }
 
 

@@ -215,8 +215,8 @@ public class Blob {
         fBoneMain.setUserData(new Box2DSprite(new Texture(Gdx.files.internal(texturePath))));
         for (Body bone : fBones)
             bone.setUserData(new Box2DSprite(new Texture(Gdx.files.internal(texturePath))));
-        for (Body bone : fBonesInn)
-            bone.setUserData(new Box2DSprite(new Texture(Gdx.files.internal(texturePath))));
+//        for (Body bone : fBonesInn)
+//            bone.setUserData(new Box2DSprite(new Texture(Gdx.files.internal(texturePath))));
     }
 
 
